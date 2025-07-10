@@ -11,8 +11,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-
-/* Navbar Style */
+/* HEADER SECTION */
+/* 01.Navbar Style */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -47,14 +47,15 @@
 }
 
 .primary-button:hover {
-  box-shadow: 0 0 5px rgb(58, 43, 158);
-  font-size: 19px;
+  box-shadow: 0 0 7px rgb(58, 43, 158);
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.923);
   font-weight: bolder;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
+  color: black;
 }
 
-/* Bannar Style */
+/* 02.Bannar Style */
 header {
   background-image: url(../Assets/Hero-bg.png);
   background-repeat: no-repeat;
@@ -76,4 +77,88 @@ header {
 
 .banner-title {
   font-size: 65px;
+}
+
+
+/* MAIN SECTION */
+/* 03.Action part Style */
+main {
+  width: 1140px;
+  margin: 0 auto;
+
+}
+
+.action {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  padding: 60px 0px;
+}
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.action-para {
+  font-size: 24px;
+  font-weight: 400;
+  color: #25243277;
+}
+
+.action-image {
+  border-radius: 48px;
+}
+
+.action-item-1 {
+  text-align: left;
+}
+
+/* Productive Users part Style */
+
+.pro-user {
+  background-color: #5751fc38;
+  border-radius: 24px;
+  height: 310px;
+}
+
+.pro-user-container {
+  margin: 50px 142px;
+  max-width: 856px;
+
+}
+
+
+.pro-user-title h2 {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #252432;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.pro-user-items {
+  display: flex;
+
+}
+
+.pro-user-item h3 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+
+.pro-user-item {
+  width: 180px;
+  margin-right: 158px;
+  height: 121px;
+
+}
+
+.pro-user-item p {
+  margin-top: 0px;
+
 }
