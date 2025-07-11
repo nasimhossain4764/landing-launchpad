@@ -222,3 +222,30 @@ main {
 .user-info p {
   color: #B3B3B3;
 }
+
+
+/* Ready to focus Part Style */
+
+.focus {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.focus h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.focus p {
+  color: #00000074;
+}
+
+.focus-image img {
+  border-radius: 48px;
+}
+
+.focus button {
+  margin: 20px 0px;
+}
