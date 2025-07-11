@@ -292,3 +292,24 @@ input[type="email"] {
   width: 100%;
   margin-top: 20px;
 }
+
+
+/* Footer Part Style */
+footer {
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #8987A1;
+}
