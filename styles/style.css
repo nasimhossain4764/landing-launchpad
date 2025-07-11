@@ -75,7 +75,7 @@ body {
 
 /* 02.Bannar Style */
 header {
-  background-image: url(../Assets/Hero-bg.png);
+  background-image: url("../assets/Hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -202,7 +202,7 @@ main {
   display: flex;
   gap: 20px;
   margin: 0 auto;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .card {
