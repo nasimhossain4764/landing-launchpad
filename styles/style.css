@@ -1,6 +1,20 @@
-/* Google font (poppins) import */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Google font (Raleway) import */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 
 /* Universal Style */
@@ -8,7 +22,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'raleway';
+}
+
+body {
+  background-color: #f5f8ff;
 }
 
 /* HEADER SECTION */
@@ -122,11 +140,13 @@ main {
   background-color: #5751fc38;
   border-radius: 24px;
   height: 310px;
+
 }
 
 .pro-user-container {
   margin: 50px 142px;
   max-width: 856px;
+
 
 }
 
@@ -142,13 +162,13 @@ main {
 
 .pro-user-items {
   display: flex;
-
 }
 
 .pro-user-item h3 {
   font-size: 80px;
   font-weight: bold;
   color: #4E47FF;
+  font-family: 'inter';
 }
 
 .pro-user-item {
@@ -160,13 +180,15 @@ main {
 
 .pro-user-item p {
   margin-top: 0px;
-
+  font-family: 'inter';
+  text-align: center;
 }
 
 
 /* User Feedback part Style */
 .user-feedback {
   padding: 80px 20px;
+  margin-top: 100px;
 }
 
 .user-feedback-title {
@@ -229,12 +251,16 @@ main {
 .focus {
   text-align: center;
   background-color: #FFFFFF;
+  border-radius: 14px;
+  margin-top: 100px;
+  height: 700px;
 }
 
 .focus h2 {
   font-size: 50px;
   font-weight: bold;
-  margin-top: 70px;
+  /* margin-top: 70px; */
+  padding-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -270,19 +296,27 @@ main {
 
 }
 
+.input-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
 .form input[type="text"],
 input[type="email"] {
   width: 100%;
   height: 50px;
   border-radius: 5px;
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 10px 20px;
+  margin-top: 10px;
   margin-bottom: 24px;
   border: 1px solid #837d7d42;
 }
 
 .form textarea {
   width: 100%;
+  margin-top: 10px;
   border: 1px solid #837d7d42;
   border-radius: 5px;
   padding: 10px 20px;
@@ -298,7 +332,8 @@ input[type="email"] {
 footer {
   text-align: center;
   padding: 80px 20px;
-  background-color: rgb(217, 243, 217);
+  background-color: #FFFFFF;
+  height: 400px;
 }
 
 footer ul {
