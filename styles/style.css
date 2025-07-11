@@ -249,3 +249,46 @@ main {
 .focus button {
   margin: 20px 0px;
 }
+
+
+/*Get in Touch Part Style */
+.get-in-touch {
+  display: flex;
+  margin-top: 80px;
+  padding: 71px 0px;
+}
+
+.text {
+
+  align-items: center;
+  padding: 55px 0px;
+}
+
+.text h1 {
+  font-size: 95px;
+  font-weight: bold;
+
+}
+
+.form input[type="text"],
+input[type="email"] {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: 1px solid #837d7d42;
+}
+
+.form textarea {
+  width: 100%;
+  border: 1px solid #837d7d42;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.form button {
+  width: 100%;
+  margin-top: 20px;
+}
